@@ -7,12 +7,33 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "AnotherViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //create UINavigationController
+    UINavigationController *navigationController = [[UINavigationController alloc] init];
+    
+    /*
+    //reference the main view controller
+    //we don't need this since we are creating the main view in anotherViewController
+    MainViewController *mainViewController = [[MainViewController alloc] init];
+    */
+    
+     AnotherViewController *anotherViewController = [[AnotherViewController alloc] init];
+    
+    [navigationController setViewControllers:[NSArray arrayWithObject:anotherViewController ]];
+    
+    //[navigationController pushViewController:mainViewController animated:YES ];
+    //set it as the root
+    self.window.rootViewController = navigationController;
+    
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
@@ -45,5 +66,6 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
 
 @end
