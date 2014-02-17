@@ -21,15 +21,15 @@
 		DEA4500D18B05EB9001BEC81 /* homework1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4500C18B05EB9001BEC81 /* homework1Tests.m */; };
 		DEA4501918B05F1E001BEC81 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4501718B05F1E001BEC81 /* MainViewController.m */; };
 		DEA4501A18B05F1E001BEC81 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4501818B05F1E001BEC81 /* MainViewController.xib */; };
-		DEA4501C18B06BA5001BEC81 /* doge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEA4501B18B06BA5001BEC81 /* doge.jpg */; };
-		DEA4501E18B06C74001BEC81 /* myPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEA4501D18B06C74001BEC81 /* myPhoto.jpg */; };
-		DEA4502A18B17A3B001BEC81 /* comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4502718B17A3B001BEC81 /* comment@2x.png */; };
-		DEA4502B18B17A3B001BEC81 /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4502818B17A3B001BEC81 /* like@2x.png */; };
-		DEA4502C18B17A3B001BEC81 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4502918B17A3B001BEC81 /* share@2x.png */; };
-		DEA4502E18B18FD4001BEC81 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4502D18B18FD4001BEC81 /* camera@2x.png */; };
-		DEA4503018B19587001BEC81 /* tabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4502F18B19587001BEC81 /* tabBar@2x.png */; };
 		DEA4503418B28F1A001BEC81 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4503218B28F1A001BEC81 /* AnotherViewController.m */; };
 		DEA4503518B28F1A001BEC81 /* AnotherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4503318B28F1A001BEC81 /* AnotherViewController.xib */; };
+		DEA4503D18B2CDF4001BEC81 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4503618B2CDF4001BEC81 /* camera@2x.png */; };
+		DEA4503E18B2CDF4001BEC81 /* comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4503718B2CDF4001BEC81 /* comment@2x.png */; };
+		DEA4503F18B2CDF4001BEC81 /* doge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEA4503818B2CDF4001BEC81 /* doge.jpg */; };
+		DEA4504018B2CDF4001BEC81 /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4503918B2CDF4001BEC81 /* like@2x.png */; };
+		DEA4504118B2CDF4001BEC81 /* myPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEA4503A18B2CDF4001BEC81 /* myPhoto.jpg */; };
+		DEA4504218B2CDF4001BEC81 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4503B18B2CDF4001BEC81 /* share@2x.png */; };
+		DEA4504318B2CDF4001BEC81 /* tabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4503C18B2CDF4001BEC81 /* tabBar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,16 +62,16 @@
 		DEA4501618B05F1E001BEC81 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		DEA4501718B05F1E001BEC81 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		DEA4501818B05F1E001BEC81 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		DEA4501B18B06BA5001BEC81 /* doge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = doge.jpg; path = ../../../../../doge.jpg; sourceTree = "<group>"; };
-		DEA4501D18B06C74001BEC81 /* myPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myPhoto.jpg; path = ../../../../../myPhoto.jpg; sourceTree = "<group>"; };
-		DEA4502718B17A3B001BEC81 /* comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "comment@2x.png"; path = "../../../../../_photos/comment@2x.png"; sourceTree = "<group>"; };
-		DEA4502818B17A3B001BEC81 /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "like@2x.png"; path = "../../../../../_photos/like@2x.png"; sourceTree = "<group>"; };
-		DEA4502918B17A3B001BEC81 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share@2x.png"; path = "../../../../../_photos/share@2x.png"; sourceTree = "<group>"; };
-		DEA4502D18B18FD4001BEC81 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera@2x.png"; path = "../../../../../_photos/camera@2x.png"; sourceTree = "<group>"; };
-		DEA4502F18B19587001BEC81 /* tabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabBar@2x.png"; path = "../../../../../_photos/tabBar@2x.png"; sourceTree = "<group>"; };
 		DEA4503118B28F1A001BEC81 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
 		DEA4503218B28F1A001BEC81 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 		DEA4503318B28F1A001BEC81 /* AnotherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherViewController.xib; sourceTree = "<group>"; };
+		DEA4503618B2CDF4001BEC81 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		DEA4503718B2CDF4001BEC81 /* comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment@2x.png"; sourceTree = "<group>"; };
+		DEA4503818B2CDF4001BEC81 /* doge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doge.jpg; sourceTree = "<group>"; };
+		DEA4503918B2CDF4001BEC81 /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
+		DEA4503A18B2CDF4001BEC81 /* myPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myPhoto.jpg; sourceTree = "<group>"; };
+		DEA4503B18B2CDF4001BEC81 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		DEA4503C18B2CDF4001BEC81 /* tabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,13 +131,13 @@
 		DEA44FED18B05EB9001BEC81 /* homework1 */ = {
 			isa = PBXGroup;
 			children = (
-				DEA4502F18B19587001BEC81 /* tabBar@2x.png */,
-				DEA4502D18B18FD4001BEC81 /* camera@2x.png */,
-				DEA4502718B17A3B001BEC81 /* comment@2x.png */,
-				DEA4502918B17A3B001BEC81 /* share@2x.png */,
-				DEA4502818B17A3B001BEC81 /* like@2x.png */,
-				DEA4501D18B06C74001BEC81 /* myPhoto.jpg */,
-				DEA4501B18B06BA5001BEC81 /* doge.jpg */,
+				DEA4503618B2CDF4001BEC81 /* camera@2x.png */,
+				DEA4503718B2CDF4001BEC81 /* comment@2x.png */,
+				DEA4503818B2CDF4001BEC81 /* doge.jpg */,
+				DEA4503918B2CDF4001BEC81 /* like@2x.png */,
+				DEA4503A18B2CDF4001BEC81 /* myPhoto.jpg */,
+				DEA4503B18B2CDF4001BEC81 /* share@2x.png */,
+				DEA4503C18B2CDF4001BEC81 /* tabBar@2x.png */,
 				DEA44FF618B05EB9001BEC81 /* AppDelegate.h */,
 				DEA44FF718B05EB9001BEC81 /* AppDelegate.m */,
 				DEA44FF918B05EB9001BEC81 /* Images.xcassets */,
@@ -256,17 +256,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA4503018B19587001BEC81 /* tabBar@2x.png in Resources */,
+				DEA4504218B2CDF4001BEC81 /* share@2x.png in Resources */,
 				DEA44FF218B05EB9001BEC81 /* InfoPlist.strings in Resources */,
+				DEA4503D18B2CDF4001BEC81 /* camera@2x.png in Resources */,
+				DEA4504118B2CDF4001BEC81 /* myPhoto.jpg in Resources */,
+				DEA4504318B2CDF4001BEC81 /* tabBar@2x.png in Resources */,
 				DEA4503518B28F1A001BEC81 /* AnotherViewController.xib in Resources */,
+				DEA4503F18B2CDF4001BEC81 /* doge.jpg in Resources */,
 				DEA4501A18B05F1E001BEC81 /* MainViewController.xib in Resources */,
-				DEA4501C18B06BA5001BEC81 /* doge.jpg in Resources */,
+				DEA4504018B2CDF4001BEC81 /* like@2x.png in Resources */,
+				DEA4503E18B2CDF4001BEC81 /* comment@2x.png in Resources */,
 				DEA44FFA18B05EB9001BEC81 /* Images.xcassets in Resources */,
-				DEA4502E18B18FD4001BEC81 /* camera@2x.png in Resources */,
-				DEA4502C18B17A3B001BEC81 /* share@2x.png in Resources */,
-				DEA4502B18B17A3B001BEC81 /* like@2x.png in Resources */,
-				DEA4502A18B17A3B001BEC81 /* comment@2x.png in Resources */,
-				DEA4501E18B06C74001BEC81 /* myPhoto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
